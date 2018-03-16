@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\chapter1">
+      <UniqueIdentifier>{b00f6ea2-eade-42f9-b946-835034f1a6f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -23,17 +26,17 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="Add.c">
+      <Filter>源文件\chapter1</Filter>
     </ClCompile>
     <ClCompile Include="helloworld.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Add.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\chapter1</Filter>
     </ClCompile>
     <ClCompile Include="Max.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\chapter1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
