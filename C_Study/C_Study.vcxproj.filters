@@ -44,5 +44,8 @@
     <ClCompile Include="1_1.c">
       <Filter>源文件\chapter1\work</Filter>
     </ClCompile>
+    <ClCompile Include="1_6.c">
+      <Filter>源文件\chapter1\work</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
