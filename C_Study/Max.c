@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+/*int main(){
 	int max(int x, int y);
 	int a, b, c;
 	scanf_s("%d,%d", &a, &b);
@@ -18,4 +18,4 @@ int max(int x, int y) {
 		z = y;
 	}
 	return z;
-}
+}*/
