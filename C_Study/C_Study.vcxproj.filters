@@ -32,7 +32,7 @@
     <ClCompile Include="Add.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Max.cpp">
+    <ClCompile Include="Max.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
