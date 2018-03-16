@@ -154,6 +154,7 @@
     <ClCompile Include="1_1.c" />
     <ClCompile Include="1_6.c" />
     <ClCompile Include="2_18.c" />
+    <ClCompile Include="2_19.c" />
     <ClCompile Include="Add.c" />
     <ClCompile Include="helloworld.c">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>

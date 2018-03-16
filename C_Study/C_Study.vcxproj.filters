@@ -53,5 +53,8 @@
     <ClCompile Include="2_18.c">
       <Filter>源文件\chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="2_19.c">
+      <Filter>源文件\chapter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
