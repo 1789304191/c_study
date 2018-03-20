@@ -31,6 +31,9 @@
     <Filter Include="源文件\chapter3\work">
       <UniqueIdentifier>{2727ff24-d29c-48f3-af3c-43341cf7014a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter4">
+      <UniqueIdentifier>{ad6d15b0-9fa1-417b-975a-d61fccd440d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -76,6 +79,9 @@
     </ClCompile>
     <ClCompile Include="work_6.c">
       <Filter>源文件\chapter3\work</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件\chapter4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
