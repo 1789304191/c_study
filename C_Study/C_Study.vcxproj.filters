@@ -83,6 +83,9 @@
     <ClCompile Include="Test.cpp">
       <Filter>源文件\chapter4</Filter>
     </ClCompile>
+    <ClCompile Include="Work_3.c">
+      <Filter>源文件\chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1_1.txt">
