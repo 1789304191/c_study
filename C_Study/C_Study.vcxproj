@@ -158,6 +158,8 @@
     <ClCompile Include="310.c" />
     <ClCompile Include="3_1.c" />
     <ClCompile Include="8_1.c" />
+    <ClCompile Include="8_13.c" />
+    <ClCompile Include="8_14.c" />
     <ClCompile Include="8_2.c" />
     <ClCompile Include="8_3.c" />
     <ClCompile Include="8_6.c" />
