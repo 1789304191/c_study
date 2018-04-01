@@ -160,7 +160,12 @@
     <ClCompile Include="8_1.c" />
     <ClCompile Include="8_13.c" />
     <ClCompile Include="8_14.c" />
+    <ClCompile Include="8_16.c" />
+    <ClCompile Include="8_18.c" />
     <ClCompile Include="8_2.c" />
+    <ClCompile Include="8_21.c" />
+    <ClCompile Include="8_22.c" />
+    <ClCompile Include="8_25.c" />
     <ClCompile Include="8_3.c" />
     <ClCompile Include="8_6.c" />
     <ClCompile Include="8_7.c" />
