@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 //返回指针指的函数
-int main() {
-	float a[3][4] = { 61,62,63,64,59,59,58,63,59,100,100,100 };
-	float * search_(float(*pointer)[4], int n);
-	int search_fail(float * p);
-	void show(float * p);
-	float * b;
-	//循环3次查看是否有不及格的学生
-	for (int i = 0; i < 3; i++) {
-		float * b = search_(a, i);
-		if (search_fail(b) != NULL) {
-			printf("成绩不合格的学生号码为：%d\n", i);
-			show(b);
-		}
-	}
-}
+//int main() {
+//	float a[3][4] = { 61,62,63,64,59,59,58,63,59,100,100,100 };
+//	float * search_(float(*pointer)[4], int n);
+//	int search_fail(float * p);
+//	void show(float * p);
+//	float * b;
+//	//循环3次查看是否有不及格的学生
+//	for (int i = 0; i < 3; i++) {
+//		float * b = search_(a, i);
+//		if (search_fail(b) != NULL) {
+//			printf("成绩不合格的学生号码为：%d\n", i);
+//			show(b);
+//		}
+//	}
+//}
 
 //查询某一个学生的成绩
 float * search_(float (* pointer)[4],int n) {
