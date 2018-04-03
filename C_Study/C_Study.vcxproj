@@ -169,6 +169,7 @@
     <ClCompile Include="8_29.c" />
     <ClCompile Include="8_3.c" />
     <ClCompile Include="8_30.c" />
+    <ClCompile Include="8_31.c" />
     <ClCompile Include="8_6.c" />
     <ClCompile Include="8_7.c" />
     <ClCompile Include="8_8.c" />
