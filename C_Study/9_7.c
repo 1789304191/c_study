@@ -14,16 +14,17 @@ struct Student
 	float average;
 };
 
-int main() {
-	void input(struct Student stu[]);
-	struct Student max_struct(struct Student stu[]);
-	void print(struct Student stu);
-	struct Student stu[3];
-	struct Student *p;
-	p = stu;
-	input(p);
-	print(max_struct(p));
-}
+//int main() {
+//	void input(struct Student stu[]);
+//	struct Student max_struct(struct Student stu[]);
+//	void print(struct Student stu);
+//	struct Student stu[3];
+//	struct Student *p;
+//	p = stu;
+//	//这里传入stu和p都行
+//	input(stu);
+//	print(max_struct(stu));
+//}
 
 void input(struct Student stu[])
 {
