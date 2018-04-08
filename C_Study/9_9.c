@@ -10,16 +10,16 @@ struct Student {
 	struct Student * next;
 };
 
-int main() {
-	struct Student * create();
-	void print_(struct Student * p);
-	struct Student * del(struct Student * p);
-	struct Student * insert(struct Student * head, struct Student * add);
-	struct Student * p = create();
-	print_(p);
-	//print_(del(p));
-	print_(insert(p, (struct Student *)malloc(LEN)));
-}
+//int main() {
+//	struct Student * create();
+//	void print_(struct Student * p);
+//	struct Student * del(struct Student * p);
+//	struct Student * insert(struct Student * head, struct Student * add);
+//	struct Student * p = create();
+//	print_(p);
+//	//print_(del(p));
+//	print_(insert(p, (struct Student *)malloc(LEN)));
+//}
 
 //定义一个创建动态链表的方法，方法返回head
 //动态创建链表

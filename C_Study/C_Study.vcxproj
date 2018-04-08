@@ -173,6 +173,7 @@
     <ClCompile Include="8_6.c" />
     <ClCompile Include="8_7.c" />
     <ClCompile Include="8_8.c" />
+    <ClCompile Include="9_10.c" />
     <ClCompile Include="9_7.c" />
     <ClCompile Include="9_8.c" />
     <ClCompile Include="9_9.c" />
