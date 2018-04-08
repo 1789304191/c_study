@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-struct Student
-{
-	int num;
-	float score;
-	//结构体类型指针变量
-	struct Student * next;
-};
+//struct Student
+//{
+//	int num;
+//	float score;
+//	//结构体类型指针变量
+//	struct Student * next;
+//};
 
 //int main() {
 //	struct Student a, b, c, * head,*p;

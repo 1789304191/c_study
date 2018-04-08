@@ -1,14 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Student.h"
 //分配结构体student大小的空间
 #define LEN sizeof(struct Student)
-
-//链表的创建
-struct Student {
-	int num;
-	float score;
-	struct Student * next;
-};
 
 //int main() {
 //	struct Student * create();
@@ -45,11 +39,13 @@ struct Student * create() {
 
 //输出链表
 void print_(struct Student * p) {
+	if (p->next == NULL)
+		printf("p=%d,num=%d,score=%2.1f,next=%d\n", p, p->num, p->score, p->next);
 	while (p->next != NULL) {
-		printf("num=%d,score=%2.1f\n", p->num, p->score);
+		printf("p=%d,num=%d,score=%2.1f,next=%d\n", p,p->num, p->score,p->next);
 		p = p->next;
 		if (p->next == NULL)
-			printf("num=%d,score=%2.1f\n", p->num, p->score);
+			printf("p=%d,num=%d,score=%2.1f,next=%d\n",p,p->num, p->score,p->next);
 	}
 }
 
