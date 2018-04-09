@@ -10,7 +10,7 @@ void print_(struct Student * p);
 int main() {
 	struct Student * sortlinkedList(struct Student * head);
 	struct Student * p=create();
-	print_(sortlinkedList(p));
+	sortlinkedList(p);
 	return 0;
 }
 
@@ -27,9 +27,12 @@ struct Student * sortlinkedList(struct Student * head)
 	print_(p1);
 	while (p0!= NULL) {
 		p1= delNode(p1,p0);
-		p1= insertNode(p1, p0);
-		p0=p0->next;
+		printf("\n删除节点之后：\n");
 		print_(p1);
+		/*p1= insertNode(p1, p0);
+		printf("\n插入节点之后：\n");
+		print_(p1);*/
+		p0=p0->next;
 	}
 	return p1;
 };
@@ -37,9 +40,16 @@ struct Student * sortlinkedList(struct Student * head)
 
 //链表的节点删除
 struct Student * delNode(struct Student * head,struct Student * p) {
+	struct Student * p0=NULL;
 	printf("\n删除的指针p是：%d\n", p);
+	//如果删除的是结束节点
 	if (p->next == NULL) {
-		return p;
+		return head;
+	}
+	//如果删除的是头节点
+	if (head == p) {
+		p0=head->next;
+		return p0;
 	}
 	struct Student * p1;
 	struct Student * p2 = NULL;
@@ -51,14 +61,8 @@ struct Student * delNode(struct Student * head,struct Student * p) {
 		p2 = p1;
 		p1 = p1->next;
 	}
-	//如果删除的是头节点
-	if (p1 == p) {
-		p2 = p1->next;
-	}
-	else {
-		p2->next = p1->next;
-	}
-	return p2;
+	p2->next = p1->next;
+	return head;
 }
 
 //链表节点添加
