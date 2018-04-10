@@ -9,8 +9,9 @@ void print_(struct Student * p);
 
 int main() {
 	struct Student * sortlinkedList(struct Student * head);
+	struct Student * insertionSort(struct Student * head);
 	struct Student * p=create();
-	print_(sortlinkedList(p));
+	print_(insertionSort(p));
 	return 0;
 }
 
@@ -45,6 +46,26 @@ struct Student *sortlinkedList(struct Student * head)
 		t->next = q;
 		printf("\n=================\n");
 		print_(head);
+	}
+	return head;
+}
+
+//Á´±í²åÈëÅÅÐò
+struct Student * insertionSort(struct Student * head) {
+	struct Student * p;
+	struct Student * p1;
+	struct Student * p2;
+	p1 = p = head;
+	p2 = p->next;
+	while (p->next != NULL) {
+		p2 = p;
+		while (p2->score < p1->score&&p2->next!=NULL) {
+			
+		}
+		if (p1 == head) {
+			head = p2;
+		}
+		p2->next = p1;
 	}
 	return head;
 }
