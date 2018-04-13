@@ -10,28 +10,28 @@
 		p1=2,3,4,5,6
 */
 
-int main() {
-	void print_(struct Student * p);
-	struct Student * create();
-	struct Student * insertionSortByDesc(struct Student * head);
-	struct Student * insertionSortByAsc(struct Student * head);
-	struct Student * connect(struct Student * p1, struct Student * p2);
-	struct Student * delete(struct Student * p1, struct Student * p2);
-	struct Student * removeDuplicate(struct Student * p1, struct Student * p2);
-	/*printf("\n请输入第一个链表:\n");
-	struct Student * p1 = create();
-	printf("\n请输入第二个链表:\n");
-	struct Student * p2 = create();
-	print_(insertionSortByAsc(connect(p1,p2)));*/
-	/*struct Student * p1 = create();
-	print_(delete(p1,p1->next->next));*/
-	printf("\n请输入第一个链表:\n");
-	struct Student * p1 = create();
-	printf("\n请输入第二个链表:\n");
-	struct Student * p2 = create();
-	print_(removeDuplicate(p1, p2));
-	return 0;
-}
+//int main() {
+//	void print_(struct Student * p);
+//	struct Student * create();
+//	struct Student * insertionSortByDesc(struct Student * head);
+//	struct Student * insertionSortByAsc(struct Student * head);
+//	struct Student * connect(struct Student * p1, struct Student * p2);
+//	struct Student * delete(struct Student * p1, struct Student * p2);
+//	struct Student * removeDuplicate(struct Student * p1, struct Student * p2);
+//	/*printf("\n请输入第一个链表:\n");
+//	struct Student * p1 = create();
+//	printf("\n请输入第二个链表:\n");
+//	struct Student * p2 = create();
+//	print_(insertionSortByAsc(connect(p1,p2)));*/
+//	/*struct Student * p1 = create();
+//	print_(delete(p1,p1->next->next));*/
+//	printf("\n请输入第一个链表:\n");
+//	struct Student * p1 = create();
+//	printf("\n请输入第二个链表:\n");
+//	struct Student * p2 = create();
+//	print_(removeDuplicate(p1, p2));
+//	return 0;
+//}
 
 
 //链表插入排序
@@ -146,6 +146,7 @@ struct Student * connect(struct Student * p1, struct Student * p2)
 struct Student * removeDuplicate(struct Student * p1, struct Student * p2) {
 	struct Student * p;
 	struct Student * p0;
+	struct Student * delete(struct Student * p1, struct Student * p2);
 	p = p1;
 	while (p != NULL) {
 		p0 = p2;

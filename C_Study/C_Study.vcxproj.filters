@@ -43,6 +43,9 @@
     <Filter Include="源文件\chapter9">
       <UniqueIdentifier>{1c314312-165c-472f-b201-bddf5a80f4f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\chapter10">
+      <UniqueIdentifier>{9d473599-4aa4-41fc-8c3c-531a4e6ce6fa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -172,6 +175,9 @@
     </ClCompile>
     <ClCompile Include="9_10.c">
       <Filter>源文件\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="10_1.c">
+      <Filter>源文件\chapter10</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
