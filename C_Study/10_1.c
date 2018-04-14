@@ -1,33 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-	FILE * fp;
-	//用typedef申明新的类型名 代替int
-	errno_t err;
-	char ch, filename[10];
-	scanf_s("%s", filename, 10);
-	//FILE**表示一个指向指针变量的指针，所以这里应该是&fp
-	if ((err = fopen_s(&fp, filename, "w")) != 0){
-		printf("\n无法打开此文件\n");
-		exit(0);
-	}
-	//目的是接收回车键，因为scanf遇见回车就结束一次输入
-	ch = getchar();
-	printf("\n请输入一个准备存储到磁盘的字符串:\n");
-	ch = getchar();
-	//可以一次输入多个值到缓冲区中 输入回车之后getchar会去缓冲中取值
-	ch = getchar();
-	while (ch != '#') {
-		fputc(ch, fp);
-		putchar(ch);
-		//取缓冲区中的值
-		ch = getchar();
-	}
-	fclose(fp);
-	putchar(10);
-	return 0;
-}
+//int main() {
+//	FILE * fp;
+//	//用typedef申明新的类型名 代替int
+//	errno_t err;
+//	char ch, filename[10];
+//	scanf_s("%s", filename, 10);
+//	//FILE**表示一个指向指针变量的指针，所以这里应该是&fp
+//	if ((err = fopen_s(&fp, filename, "w")) != 0){
+//		printf("\n无法打开此文件\n");
+//		exit(0);
+//	}
+//	//目的是接收回车键，因为scanf遇见回车就结束一次输入
+//	ch = getchar();
+//	printf("\n请输入一个准备存储到磁盘的字符串:\n");
+//	//可以一次输入多个值到缓冲区中 输入回车之后getchar会去缓冲中取值
+//	ch = getchar();
+//	while (ch != '#') {
+//		fputc(ch, fp);
+//		putchar(ch);
+//		//取缓冲区中的值
+//		ch = getchar();
+//	}
+//	fclose(fp);
+//	putchar(10);
+//	return 0;
+//}
 
 /*
 第一：要注意不同的函数是否接受空格符、是否舍弃最后的回车符的问题!

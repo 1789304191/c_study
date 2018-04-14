@@ -179,6 +179,12 @@
     <ClCompile Include="10_1.c">
       <Filter>源文件\chapter10</Filter>
     </ClCompile>
+    <ClCompile Include="10_2.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="10_3.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1_1.txt">

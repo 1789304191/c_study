@@ -153,6 +153,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10_1.c" />
+    <ClCompile Include="10_2.c" />
+    <ClCompile Include="10_3.c" />
     <ClCompile Include="1_1.c" />
     <ClCompile Include="1_6.c" />
     <ClCompile Include="2_18.c" />
